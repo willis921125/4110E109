@@ -10,22 +10,29 @@
 x = 10+5
 print(x)
 ```
+x=6
+y=3
+print(x / y)
 
 ```python
 x = 10-5
 print(x)
 ```
-
+x=5
+y=2
+print(x // y)
 ```python
 x = x - 3
 print(x)
 ```
-
+x = x // 3
+print(x)
 ```python
 x = x ** 3
 print(x)
 ```
-
+x = x ^ 3
+print(x)
 ## 字串str的各種運算 [資料來源](https://www.w3schools.com/python/python_strings.asp)
 ```python
 # Multiline Strings
@@ -42,16 +49,23 @@ print(a)
 a = "Hello, World!"
 print(a[0:7])
 ```
+a = " Hello, World! "
+print(a.strip()) # returns "Hello, World!"
 
 ```python
 for x in "banana":
   print(x)
 ```
+a = "Hello, World!"
+print(a.lower())
 
 ```python
-
+b = "Hello, World!"
+print(b[2:])
 
 ```
+a = "Hello, World!"
+print(a.replace("H", "J"))
 
 ## 列表list的各種運算  [參考範例](https://www.w3schools.com/python/python_lists.asp)
 
