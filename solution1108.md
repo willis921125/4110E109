@@ -10,13 +10,13 @@
 - HTTP vs HTTPs
   - HTTP
     - HyperText Transfer Protocol 超文本傳輸協定
-    - HTTP是一種用於分佈式、協作式和超媒體訊息系統的應用層協定
-    - HTTP是全球資訊網的數據通信的基礎。
+    - HTTP CacheCache 對網站速度很重要。 此文章描敘不同的方法使用 HTTP Header 控制它。
+    - HTTP 的演化 (en-US) HTTP 早期版本變化的簡要說明，到現在的 HTTP/2 與其他版本。。
   - HTTPS
     - 超文本傳輸安全協定（HyperText Transfer Protocol Secure，HTTPS；
     - 常稱為HTTP over TLS、HTTP over SSL或HTTP Secure
-    - HTTPS是一種透過計算機網路進行安全通訊的傳輸協定。
-    - HTTPS經由HTTP進行通訊，但利用SSL/TLS來加密封包。
+    - HTTPS的信任基於預先安裝在作業系統中的憑證頒發機構（CA）。
+    - HTTPS的主要作用是在不安全的網路上建立一個安全信道，並可在使用適當的加密套件和伺服器憑證可被驗證且可被信任時，對竊聽和中間人攻擊提供合理的防護。
     - HTTPS開發的主要目的，是提供對網站伺服器的身分認證，保護交換資料的隱私與完整性。
 - DNS vs DNSsec
 - telnet vs ssh
